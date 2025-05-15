@@ -1,0 +1,140 @@
+/* Responsive Styles */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 1200px) {
+  .hero-image {
+    width: 45%;
+    right: -10%;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991px) */
+@media (max-width: 992px) {
+  .header-content {
+    height: 60px;
+  }
+  
+  .logo a {
+    font-size: var(--font-size-lg);
+  }
+  
+  .main-nav {
+    display: none;
+  }
+  
+  .mobile-only {
+    display: block;
+  }
+  
+  .dropdown-menu {
+    top: 60px;
+  }
+  
+  .hero {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .hero-title {
+    font-size: calc(var(--font-size-xxl) * 0.9);
+  }
+  
+  .hero-subtitle {
+    font-size: var(--font-size-md);
+  }
+  
+  .hero-image {
+    opacity: 0.3;
+    right: -20%;
+    width: 60%;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .footer-logo {
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: space-between;
+  }
+}
+
+/* Small devices (mobile phones, 576px to 767px) */
+@media (max-width: 768px) {
+  .food-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .hero-actions {
+    justify-content: center;
+  }
+  
+  .hero-image {
+    opacity: 0.2;
+    right: -30%;
+    width: 80%;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: var(--spacing-lg);
+  }
+  
+  .footer-column {
+    text-align: center;
+  }
+  
+  .footer-column h4::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* Extra small devices (small mobile phones, less than 576px) */
+@media (max-width: 576px) {
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .hero {
+    padding: var(--spacing-lg) 0;
+  }
+  
+  .hero-title {
+    font-size: calc(var(--font-size-xxl) * 0.8);
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+  }
+  
+  .dropdown-menu {
+    width: calc(100vw - 2 * var(--spacing-sm));
+    right: var(--spacing-sm);
+  }
+  
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .food-grid {
+    grid-template-columns: 1fr;
+  }
+}
