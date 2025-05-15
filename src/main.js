@@ -145,7 +145,7 @@ function setupHeaderAndFooter() {
       <div class="footer-bottom">
         <p>&copy; 2025 LezzetExpress. Tüm hakları saklıdır.</p>
         <div class="social-links">
-          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://tr-tr.facebook.com/" class="social-link"><i class="fab fa-facebook-f"></i></a>
           <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
           <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
         </div>
